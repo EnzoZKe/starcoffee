@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+li{
+    list-style-type: none;
+}
+
 /*Itens do Header*/
 #uau img {
     height: 100px;
@@ -145,4 +149,67 @@ main .help {
 
 .textos2 h2 {
     margin-bottom: 20px;
+}
+
+.textos2 input {
+    padding: 5px;
+    background-color: transparent;
+}
+
+.textos2 input:hover {
+    padding: 5px;
+    background-color: rgb(40, 181, 148);
+}
+
+/*Itens do Footer*/
+
+footer{
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linha{
+    display: flex;
+    margin-top: 10px;
+}
+
+.linha ul {
+    margin-left: 60px;
+}
+
+.linha ul li {
+    margin-bottom: 10px;
+}
+
+.icon{
+    width: 30px;
+}
+
+footer .icons {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+footer .icons li {
+    margin-left: 10px;
+}
+
+footer .termos {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+footer .icons li {
+    margin-left: 10px;
+}
+
+.termos ul {
+    display: flex;
+}
+
+.termos ul li {
+    margin-left: 20px;
 }
